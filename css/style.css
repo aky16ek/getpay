@@ -1,0 +1,130 @@
+body {
+    text-align:center;
+    background-color:#FFFFCC;
+
+    opacity:1;
+
+
+}
+
+
+#start {
+    margin:20px;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to right, #ff512f, #f09819);
+    border-radius: 20px;
+    font-size: 15pt;
+    border:0;
+    box-shadow:3px 3px 3px black, -1px -1px 1px black;
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+
+table.dez {
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px lime outset;
+    border-left-color: red;
+    border-top-color: red;
+    background: linear-gradient(#1845ad, #23a2f6);
+    box-shadow:2px 3px 5px black;
+}
+td {
+    width: 150px;
+    height: 150px;
+    border: 2px red outset;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    border-right-color: lime;
+    border-bottom-color: lime;
+    background-color:white;
+    cursor:pointer;
+}
+
+.x {
+
+    backgound-color:grey;
+
+
+}
+
+.x:before  {
+    content: "X";
+    margin:0;
+    padding:0;
+    vertical-align:middle;
+    font-family: cursive;
+    font-size:80pt;
+    color:lime;
+}
+
+.o {
+
+}
+
+.o:before  {
+    content: "O";
+    margin:0;
+    padding:0;
+    vertical-align:middle;
+    font-family: cursive;
+    font-size:80pt;
+    color:red;
+}
+
+
+
+
+
+.line {
+    clear:both;
+    margin-top:10px;
+}
+
+#difficult {
+    margin:10px;
+    width: 350px;
+    height: 40px;
+    background: linear-gradient(to bottom right, rgba(255, 67, 67, 1) , rgb(7, 245, 217));
+    border-radius: 10px;
+    font-size: 14pt;
+    border:0;
+    box-shadow:2px 2px 5px black, -1px -1px 1px black;
+    border-style:outset;
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: bold;
+    display:inline;
+    cursor:pointer;
+}
+
+#difficult > option {
+    color:green;
+
+}
+
+#diffpre {
+
+    width: 200px;
+    height: 25px;
+    background: linear-gradient(to bottom right, rgba(255, 67, 67, 0.45) , rgba(103, 15, 175, 0.56));
+    border-radius: 10px;
+    font-size: 14pt;
+    border-left-color: red;
+    border-top-color: red;
+    border-right-color: rgba(55, 0, 255, 0.96);
+    border-bottom-color: #500596;
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: bold;
+    display:inline;
+    text-align:center;
+    border-style:outset;
+
+}
